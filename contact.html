@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Personal Website</title>
+    <link rel="stylesheet" href="cssAI.css">
+</head>
+<body>
+    <header>
+        <h1>Profil Saya</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Tentang Saya</a></li>
+                <li><a href="skills.html">Keahlian & Minat</a></li>
+                <li><a href="works.html">Proyek & Karya</a></li>
+                <li><a href="contact.html" class="active">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact">
+            <h2>Hubungi Saya</h2>
+            <p>Ingin berdiskusi atau berkolaborasi? Kirimkan pesan melalui formulir di bawah ini atau hubungi saya via media sosial.</p>
+            
+            <form action="/submit-contact" method="post">
+                <div>
+                    <label for="fullname">Nama Lengkap</label>
+                    <input id="fullname" name="fullname" type="text" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" required>
+                </div>
+                <div>
+                    <label for="message">Pesan</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Kirim Pesan</button>
+            </form>
+
+            <div class="social-links">
+    <h3>Media Sosial</h3>
+    <!-- Tag a ini akan kita bentuk jadi tombol di CSS -->
+    <a href="https://www.instagram.com/diasramndan?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==" target="_blank" class="btn-instagram">
+        INSTAGRAM
+    </a>
+</div>
+        </section>
+    </main>
+
+    <footer>
+        <p></p>
+    </footer>
+</body>
+</html>
